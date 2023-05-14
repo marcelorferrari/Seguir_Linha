@@ -1,6 +1,5 @@
 input.onButtonPressed(Button.A, function () {
     while (true) {
-        motobit.enable(MotorPower.On)
         if (pins.analogReadPin(AnalogPin.P0) <= LCal - 30) {
             basic.showLeds(`
                 . . # . .
@@ -40,3 +39,5 @@ let RCal = 0
 let LCal = 0
 LCal = pins.analogReadPin(AnalogPin.P0)
 RCal = pins.analogReadPin(AnalogPin.P2)
+robotbit.MotorRun(robotbit.Motors.M1A, 100)
+robotbit.MotorRun(robotbit.Motors.M1B, 100)

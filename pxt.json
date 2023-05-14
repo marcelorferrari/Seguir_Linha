@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "motobit": "github:sparkfun/pxt-moto-bit#5e903a3cd0a84a9e0a5df3671c630e29af1e3bbc",
-        "microphone": "*"
+        "microphone": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.5"
     },
     "files": [
         "main.blocks",
